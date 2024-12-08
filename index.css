@@ -1,0 +1,115 @@
+body {
+  margin: 0  auto;
+}
+.bg {
+  background-color: #b8bedd;
+  background-image: url(/assests/MAIN.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin: 10px auto;
+  float: left;
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fefffa;
+}
+
+li {
+  margin: 10px 30px;
+}
+
+a {
+  color: #fefffa;
+  text-decoration: none;
+  display: inline;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 18px;
+}
+
+a:hover {
+  font-weight: bolder;
+  text-decoration-color: #f2f4ee;
+}
+
+.text {
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 50px;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  color: #fefffa;
+}
+
+.sec {
+  border: 1px solid lawngreen;
+  justify-items: center;
+  padding: 1em;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  line-height: 1.5em; /* Adjust this value to control the height of each line */
+  max-height: 4.5em; /* 3 lines * 1.5em line height */
+  overflow: hidden; /* Hide any text that exceeds 3 lines */
+}
+
+.search {
+  background-color: #ffffff;
+  height: 50px;
+  width: 50%;
+  display: flex;
+  border-radius: 10px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  height: 90%;/* Increase the width */
+ box-sizing: content-box;
+ border: none;
+}
+.search input:focus{
+  border: none;
+  outline: none;
+}
+::placeholder{
+  color:#000000 ;
+  text-transform: uppercase;
+  align-items: center;
+}
+.vl{
+  border-left: 1px solid rgb(1, 1, 1);
+  height: 40px;
+}
+.search-btn{
+  background-color: #08895c;
+  height: 90%;
+  border-radius: 15px;
+  border:none;
+  outline: none;
+  color: white;
+
+}
