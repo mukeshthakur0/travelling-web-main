@@ -64,12 +64,11 @@ a:hover {
 }
 
 .sec {
-  border: 1px solid lawngreen;
   justify-items: center;
   padding: 1em;
   text-align: center;
-  backdrop-filter: blur(10px);
-  line-height: 1.5em; /* Adjust this value to control the height of each line */
+  backdrop-filter:light(10px);
+  line-height: 1.5em; 
   max-height: 4.5em; /* 3 lines * 1.5em line height */
   overflow: hidden; /* Hide any text that exceeds 3 lines */
 }
@@ -84,8 +83,15 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-
+i{
+  height: 20px;
+width: 30px;
+color: #f3f3f3;
+align-items: center;
+}
 .search input {
+  width: 24%;
+  border-radius: 10px;
   height: 90%;/* Increase the width */
  box-sizing: content-box;
  border: none;
@@ -96,7 +102,7 @@ a:hover {
 }
 ::placeholder{
   color:#000000 ;
-  text-transform: uppercase;
+  text-transform: capitalize;
   align-items: center;
 }
 .vl{
@@ -106,9 +112,105 @@ a:hover {
 .search-btn{
   background-color: #08895c;
   height: 90%;
+  width: 23%;
   border-radius: 15px;
   border:none;
   outline: none;
   color: white;
+  align-items: center;
+  justify-items: center;
 
+}
+.box{
+ margin-top: 50px;
+ justify-content: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.box1 {
+  justify-content: center;
+  gap: 20px;
+ margin: 20px 50px 20px 20px;
+  display: flex;
+  width: 50%;
+}
+.con {
+  box-shadow: 15px 6px 118px 0px rgba(168,116,116,0.91);
+ background-position: -80px;
+  background-image: url(assests/div1.jpg);
+ background-repeat: no-repeat;
+ overflow: hidden;
+ margin: 10px 0px 10px 60px ;
+  height: 400px;
+  width: 35%;
+ border-radius: 100px 100px 100px 100px;
+}
+.cont {
+  margin: 80px 0px 0px -30px;
+  background-image: url(assests/div2.jpg);
+  background-position: -80px;
+  height: 330px;
+  width: 30%;
+ 
+  border-radius: 100px 100px 100px 100px;
+  
+}
+.conta {
+  background: scroll;
+  background-position: -110px -90px;
+  overflow: hidden;
+  background-image: url(assests/div4.jpg);
+  margin: 10px 10px 10px -50px;
+  border-radius: 100px 100px 100px 100px;
+  height: 270px;
+  width: 25%;
+}
+/* Numbers section */
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two items per row */
+  gap: 40px; /* Space between items */
+  margin-top: 30px;
+}
+
+.number-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.number-box h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00a86b;
+  margin: 0;
+}
+
+.number-box p {
+  font-size: 1rem;
+  color: #1e4221f0;
+  margin: 5px 0 0 0;
+}
+.text-content {
+  max-width: 500px;
+}
+.tx{
+ color: #0c0f0e;
+ line-height: 1.5;
+}
+.text-content h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.trvl{
+color: #08895c;
+}
+.text-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #161313;
+  margin-bottom: 20px;
 }
