@@ -2,6 +2,10 @@ body {
   margin: 0  auto;
 }
 .bg {
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 7ef94fdff4d457410b2febf4b67914aed92b52f7
   background-image: url(/assests/MAIN.avif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,6 +125,7 @@ align-items: center;
   justify-items: center;
 
 }
+<<<<<<< HEAD
 .box{
  margin-top: 50px;
  justify-content: center;
@@ -214,3 +219,5 @@ color: #08895c;
   color: #161313;
   margin-bottom: 20px;
 }
+=======
+>>>>>>> 7ef94fdff4d457410b2febf4b67914aed92b52f7
