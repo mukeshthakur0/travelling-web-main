@@ -2,7 +2,6 @@ body {
   margin: 0  auto;
 }
 .bg {
-  background-color: #b8bedd;
   background-image: url(/assests/MAIN.avif);
   background-repeat: no-repeat;
   background-size: cover;
