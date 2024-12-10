@@ -2,11 +2,10 @@ body {
   margin: 0  auto;
 }
 .bg {
-  background-image: url(/assests/MAIN.avif);
+  background-image: url(/assests/Main.jpg);
   background-repeat: no-repeat;
+ background-position: center;
   background-size: cover;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
@@ -38,6 +37,7 @@ li {
 }
 
 a {
+  text-shadow: 1px 1px 2px rgb(7, 6, 6);
   color: #fefffa;
   text-decoration: none;
   display: inline;
@@ -52,6 +52,7 @@ a:hover {
 }
 
 .text {
+  text-shadow: 3px 3px 6px rgb(0, 0, 0);
   text-transform: uppercase;
   align-items: center;
   font-size: 50px;
@@ -64,10 +65,12 @@ a:hover {
 }
 
 .sec {
+
+  color: #f3f3f3;
   justify-items: center;
   padding: 1em;
   text-align: center;
-  backdrop-filter:light(10px);
+  text-shadow: 1px 1px 3px rgb(50, 50, 50);
   line-height: 1.5em; 
   max-height: 4.5em; /* 3 lines * 1.5em line height */
   overflow: hidden; /* Hide any text that exceeds 3 lines */
