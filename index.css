@@ -1,12 +1,13 @@
 body {
   margin: 0  auto;
 }
-.bg {
+.background{
   background-image: url(/assests/Main.jpg);
   background-repeat: no-repeat;
  background-position: center;
   background-size: cover;
   height: 100vh;
+  max-width: 1440px;
 }
 
 .nav {
@@ -160,6 +161,7 @@ align-items: center;
   
 }
 .conta {
+  max-width: 1440px;
   background: scroll;
   background-position: -110px -90px;
   overflow: hidden;
