@@ -1,16 +1,6 @@
 body {
   margin: 0  auto;
 }
-.background{
-  background-image: url(/assests/background.jpg);
-  background-repeat: no-repeat;
- background-position: center;
-  background-size: cover;
-  height: 100vh;
-  max-width: 1440px;
-  min-width: 320px;
-}
-
 .nav {
   display: flex;
   justify-content: center;
@@ -222,4 +212,11 @@ color: #08895c;
   color: #161313;
   margin-bottom: 20px;
 }
-
+.background{
+  background-image: url(/assests/background.jpg);
+  background-repeat: no-repeat;
+ background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  min-width: 320px;
+}
