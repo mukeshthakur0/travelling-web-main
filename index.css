@@ -213,9 +213,7 @@ color: #08895c;
   margin-bottom: 20px;
 }
 .background{
-}
-.backgroun{
-  background-image: url(/assests/background.jpg);
+  background-image: url(assests/background.jpg);
   background-repeat: no-repeat;
  background-position: center;
   background-size: cover;
