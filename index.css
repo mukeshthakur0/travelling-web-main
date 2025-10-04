@@ -1,209 +1,189 @@
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+*{
+    
 }
-
-/* Navbar */
-.background {
-  background: #ff6f61;
-  color: white;
-  padding: 20px 0;
-  position: relative;
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 50px;
-}
-
-.nav-links {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-}
-
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Hamburger for mobile */
-.hamburger {
-  display: none;
-  font-size: 28px;
-  cursor: pointer;
-  color: white;
-}
-
-/* Hero Section */
-.text {
-  text-align: center;
-  font-size: 3rem;
-  margin: 20px 0;
-}
-
-.sec {
-  text-align: center;
-  width: 70%;
-  margin: 0 auto 30px auto;
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-
-.search {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.search input, .search button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-}
-
-.search button {
-  background: #333;
-  color: white;
-  cursor: pointer;
-}
-
-/* Main content */
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 50px 20px;
-}
-
-.text-content {
-  max-width: 600px;
-}
-
-.numbers {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-.number-box {
-  background: #f5f5f5;
-  padding: 20px;
-  text-align: center;
-  flex: 1 1 120px;
-  border-radius: 5px;
-}
-
-/* Top destinations */
-.topdst {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
-  padding: 30px;
-}
-
-.topdest {
-  position: relative;
-  flex: 1 1 200px;
-  max-width: 250px;
-}
-
-.bgimg {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-
-.lowertext {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: white;
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-/* Footer */
-.footer {
-  background: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer .nav-links {
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.footer .social {
-  margin-top: 10px;
-}
-
-.sbtn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin: 0 5px;
-}
-
-.sbtn a {
-  color: white;
-  font-size: 20px;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-  .nav {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    display: none;
+.header{
+    background-image: url(Manali-Sanctuary.jpg);
+    background-repeat: no-repeat;
     width: 100%;
-    background: #ff6f61;
-    padding: 10px 0;
-  }
-
-  .nav-links.open {
-    display: flex;
-  }
-
-  .hamburger {
-    display: block;
-  }
-
-  .sec {
-    width: 90%;
-  }
-
-  .text {
-    font-size: 2rem;
-  }
+    background-size: 2000px;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+   margin: 0 auto ;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 
-@media (max-width: 480px) {
-  .box {
-    flex-direction: column;
-    align-items: center;
+.menus{
+padding:25px;
+display: flex;
+padding-left: 300px;
+float: left;
+
+}
+.menus ul li{
+    float: left;
+    list-style-type: none;
+    padding-left: 60px;
+    border-bottom: 1px solid blue ;
+}
+.menus ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color:#000000;
+    float: left;
+    -webkit-text-stroke: 0.5px black;
+    font-family: monospace;
+   
+}
+ h1{
+   padding-right: 40px;
+    padding-top: 250px;
+    font-size: 70px;
+    color: #ffffff;
+  text-align: center;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+
+ }
+ p{
+   text-align: center;
+    color: #000000;
+    padding-bottom: -50px;
+    font-size: 20px;
+    padding-bottom: 50px;
+    -webkit-text-stroke:0.5px #000000;
+ }
+
+  h6{
+    text-align: center  ;
+    font-size: 40px;
+    padding-bottom: 190px;
+    color: #080808;
+  }
+  .sub{
+    text-align: center;
+  }
+  button{
+    border-style: hidden;
+    border-radius: 35px;
+    width: 24%;
+    height: 72px;
+    color: rgb(100, 100, 100);
+    background-color: coral;
+    font-size: 35px;
+   margin-bottom: 240px;
+  }
+  button:hover{
+    color: black;
   }
 
-  .topdest {
-    max-width: 100%;
-  }
+    h2{
+        text-align: center; 
+        font-size: 60px;
+        padding-top: 150px;
+    }
+    h3{
+        font-size: 25px;
+        text-align: center;
+        
+    }
+.container .box{
+    position: relative;
+    width: 320px;
+    background-color: #fff;
+    padding: 100px 40px 60px;
+    box-shadow:  0 15px 45px rgb(95, 94, 94);
+    border: 1px whitesmoke solid;
+    background-color: #fff;
+    
+
+}
+.container .box1{
+    position: relative;
+    width: 320px;
+    background-color: #fff;
+    padding: 100px 40px 60px;
+    box-shadow:  0 15px 45px rgb(82, 82, 82);
+    border: 1px whitesmoke solid;
+    background-color: gainsboro;
+
+}
+.container.box2{
+    position: relative;
+    width: 320px;
+    background-color: #fff;
+    padding: 100px 40px 60px;
+    box-shadow:  0 15px 45px rgb(82, 82, 82);
+    border: 1px whitesmoke solid;
+    background-color: gainsboro;
+}
+
+.box2{
+    position: relative;
+    height: 200px;
+     width: 320px;
+     background-color: #fff;
+     padding: 100px 40px 60px;
+     box-shadow:  0 15px 45px rgb(82, 82, 82);
+     border: 1px whitesmoke solid;
+     margin-top: 50px;
+     background-repeat: no-repeat;
+     background-size: 550px;
+}
+.box3{
+    position: relative;
+    height: 200px;
+     width: 320px;
+     background-color: #fff;
+     padding: 100px 40px 60px;
+     box-shadow:  0 15px 45px rgb(82, 82, 82);
+     border: 1px whitesmoke solid;
+     margin-top: 50px;
+     background-repeat: no-repeat;
+     background-size: 550px;
+    }
+
+    h4{
+       
+       text-align: center top;
+        font-size: 30px;
+        color: #080707;
+        display: block;
+    }
+  
+    .bgbox{
+        border: solid 1px;
+        height: 500px;
+
+    }
+  
+   
+    .colm6{
+   width:50% ;
+   display: inline-block;
+    }
+   .fox{
+    width: 49%;
+    display: inline-block;
+    border: solid 1px;
+    height: 300px;
+    background-size: 500px;
+   }
+   .bgbox{
+    height: 606px;
+    float: left;
+    width:90%
+   }
+.fox2{
+    height: 500px;
+}
+.bottombox{
+    width: 320px;
+    border: 1px solid black;
+    height: 300px;
+    display: inline-block;
+    margin-top: 5%;
 }
